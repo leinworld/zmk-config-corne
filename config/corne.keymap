@@ -30,7 +30,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        mo3 {
+            bindings = <&mo 3>;
+            key-positions = <41 42>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -85,12 +92,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        to_device_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
