@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-option$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -61,7 +61,7 @@ layers:
   - HOME
   - PG UP
   - INS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
@@ -81,7 +81,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AC BACK
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - END
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - device_ctrl
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -197,21 +197,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 1]
-  k: $$mdi:keyboard-esc$$
-- p: [3, 4]
-  k: {t: '[', s: '{'}
-- p: [9, 8]
-  k: {t: ']', s: '}'}
-- p: [16, 17]
-  k: (
-- p: [21, 22]
-  k: )
-- p: [29, 30]
-  k: '{'
-- p: [34, 35]
-  k: '}'
-- p: [5, 7]
-  k: {t: \, s: '|'}
-- p: [18, 20]
-  k: '|'
+- p: [41, 42]
+  k: device_ctrl
