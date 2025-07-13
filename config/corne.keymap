@@ -49,11 +49,11 @@
 
         Base {
             bindings = <
-&kp ESC          &kp Q  &kp W  &kp E         &kp R        &kp T    &none  &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&mt LCTRL GRAVE  &kp A  &kp S  &kp D         &kp F        &kp G    &none  &kp H      &kp J      &kp K      &kp L    &kp SEMI  &mt LEFT_ALT SQT
-&mt LSHFT TAB    &kp Z  &kp X  &kp C         &kp V        &kp B    &none  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                        &none  &kp LEFT_WIN  &lt 1 SPACE  &mo 2    &none  &kp ENTER  &kp SPACE  &kp LANG1
-                                                                   &none
+&gresc     &kp Q  &kp W  &kp E      &kp R        &kp T           &none  &kp Y      &kp U        &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D      &kp F        &kp G           &none  &kp H      &kp J        &kp K      &kp L    &kp SEMI  &mt LEFT_ALT SQT
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V        &kp B           &none  &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                  &none  &kp LCTRL  &lt 1 SPACE  &kp LEFT_GUI    &none  &kp ENTER  &lt 2 SPACE  &none
+                                                                 &none
             >;
 
             label = "Base";
@@ -62,7 +62,7 @@
 
         nav_and_func {
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                 &trans  &kp C_VOLUME_UP    &kp HOME  &kp PG_UP  &kp INS    &kp PRINTSCREEN  &kp DELETE
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp F13                &trans  &kp C_VOLUME_UP    &kp HOME  &kp PG_UP  &kp INS    &kp PRINTSCREEN  &kp DELETE
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp LC(PAUSE_BREAK)    &trans  &kp LEFT           &kp DOWN  &kp UP     &kp RIGHT  &trans           &trans
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_AC_BACK          &trans  &kp C_VOLUME_DOWN  &kp END   &kp PG_DN  &kp DEL    &trans           &none
                 &trans   &trans   &trans   &trans                 &trans  &trans             &trans    &trans
