@@ -38,6 +38,41 @@
             bindings = <&mo 3>;
             key-positions = <41 42>;
         };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <17 16>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <29 30>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <3 4>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <15 17>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <27 28>;
+        };
+
+        redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <14 15>;
+        };
+
+        OslLayer {
+            bindings = <&sl 4>;
+            key-positions = <15 16>;
+        };
     };
 
     behaviors {
@@ -112,6 +147,18 @@
             >;
 
             label = "device_ctrl";
+        };
+
+        OSLMacros {
+            bindings = <
+&none  &none  &none      &none          &none  &none    &none  &none       &none  &none  &none  &none  &none
+&none  &none  &kp LC(S)  &kp LC(LS(S))  &none  &none    &none  &none       &none  &none  &none  &none  &none
+&none  &none  &none      &none          &none  &none    &none  &none       &none  &none  &none  &none  &none
+              &none      &none          &none  &none    &none  &kp RETURN  &none  &none
+                                                        &none
+            >;
+
+            label = "OSLMacros";
         };
     };
 
