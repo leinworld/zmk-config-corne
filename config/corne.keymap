@@ -10,8 +10,6 @@
 
 &lt { tapping-term-ms = <350>; };
 
-&mt { tapping-term-ms = <350>; };
-
 / {
     zip_scroll_scaler: zip_scroll_scaler {
         compatible = "zmk,input-processor-scaler";
@@ -44,16 +42,29 @@
         };
     };
 
+    behaviors {
+        tlt: tlt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TabPreferedLT";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <350>;
+            quick-tap-ms = <160>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         Base {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E      &kp R        &kp T           &none  &kp Y      &kp U        &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D      &kp F        &kp G           &none  &kp H      &kp J        &kp K      &kp L    &kp SEMI  &mt LEFT_ALT SQT
-&kp LSHFT   &kp Z  &kp X  &kp C      &kp V        &kp B           &none  &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                   &none  &kp LCTRL  &lt 1 SPACE  &kp LEFT_GUI    &none  &kp ENTER  &lt 2 SPACE  &none
-                                                                  &none
+&kp ESCAPE  &kp Q  &kp W  &kp E      &kp R         &kp T           &none  &kp Y      &kp U        &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB     &kp A  &kp S  &kp D      &kp F         &kp G           &none  &kp H      &kp J        &kp K      &kp L    &kp SEMI  &mt LEFT_ALT SQT
+&kp LSHFT   &kp Z  &kp X  &kp C      &kp V         &kp B           &none  &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                   &none  &kp LCTRL  &tlt 1 SPACE  &kp LEFT_GUI    &none  &kp ENTER  &lt 2 SPACE  &none
+                                                                   &none
             >;
 
             label = "Base";
