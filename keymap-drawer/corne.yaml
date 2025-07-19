@@ -262,3 +262,5 @@ combos:
   k: Ctl+Y
 - p: [15, 16]
   k: {t: OSLMacros, h: '$$mdi:gesture-tap-hold$$'}
+- p: [28, 29]
+  k: {t: '`', s: '~'}

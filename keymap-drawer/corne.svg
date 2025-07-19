@@ -558,6 +558,11 @@ rect.held, rect.combo.held {
 <text x="168" y="109" class="combo tap layer-activator"><tspan style="font-size: 67%">OSLMacros</tspan></text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="105" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
+<text x="168" y="165" class="combo tap">`</text>
+<text x="168" y="154" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 405)" class="layer-nav_and_func">
@@ -847,6 +852,11 @@ rect.held, rect.combo.held {
 <a href="#OSLMacros">
 <text x="168" y="109" class="combo tap layer-activator"><tspan style="font-size: 67%">OSLMacros</tspan></text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="105" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
+<text x="168" y="165" class="combo tap">`</text>
+<text x="168" y="154" class="combo shifted">~</text>
 </g>
 </g>
 </g>
@@ -1143,6 +1153,11 @@ rect.held, rect.combo.held {
 <a href="#OSLMacros">
 <text x="168" y="109" class="combo tap layer-activator"><tspan style="font-size: 67%">OSLMacros</tspan></text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="105" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
+<text x="168" y="165" class="combo tap">`</text>
+<text x="168" y="154" class="combo shifted">~</text>
 </g>
 </g>
 </g>
@@ -1443,6 +1458,11 @@ rect.held, rect.combo.held {
 <text x="168" y="109" class="combo tap layer-activator"><tspan style="font-size: 67%">OSLMacros</tspan></text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="105" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
+<text x="168" y="165" class="combo tap">`</text>
+<text x="168" y="154" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1622)" class="layer-OSLMacros">
@@ -1730,6 +1750,11 @@ rect.held, rect.combo.held {
 <a href="#OSLMacros">
 <text x="168" y="109" class="combo tap layer-activator"><tspan style="font-size: 67%">OSLMacros</tspan></text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="105" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
+<text x="168" y="165" class="combo tap">`</text>
+<text x="168" y="154" class="combo shifted">~</text>
 </g>
 </g>
 </g>
