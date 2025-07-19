@@ -73,6 +73,11 @@
             bindings = <&sl 4>;
             key-positions = <15 16>;
         };
+
+        backtick {
+            bindings = <&kp GRAVE>;
+            key-positions = <28 29>;
+        };
     };
 
     behaviors {
