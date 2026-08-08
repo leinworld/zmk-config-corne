@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
-  - '&ltdc'
+  - NavAndFunction
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RETURN
@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,8 +189,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,3 +245,18 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NumAndSymbols}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [41, 42]
+  k: DeviceCtrl
+- p: [16, 17]
+  k: Ctl+C
+- p: [29, 30]
+  k: Ctl+V
+- p: [3, 4]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [15, 17]
+  k: Ctl+X
+- p: [28, 29]
+  k: {t: '`', s: '~'}
+- p: [14, 15, 16, 17]
+  k: {t: Gaming, h: toggle}
